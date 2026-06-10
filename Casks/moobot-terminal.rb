@@ -1,8 +1,8 @@
 # Moobot Terminal — Mac trading terminal with an AI research desk.
 # right-click → Open the first time.
 cask "moobot-terminal" do
-  version "0.1.1"
-  sha256 "774a76aca4981ff3d4b094752aebedd6e836e5d6a92e2f5be54dbdd077e8404b"
+  version "0.1.2"
+  sha256 "8f14f252f403271347ba682871e25b6644d42a7000d0bd430945255c4073613f"
 
   url "https://github.com/viraatdas/moobot-terminal/releases/download/v#{version}/Moobot.Terminal_#{version}_aarch64.dmg"
   name "Moobot Terminal"
