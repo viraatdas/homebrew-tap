@@ -1,8 +1,8 @@
 # Moobot Terminal — Mac trading terminal with an AI research desk.
 # right-click → Open the first time.
 cask "moobot-terminal" do
-  version "0.1.3"
-  sha256 "17806bcad664ac1431aa8895ca78c84b723f63d462041c57f3b1d46ba059aa3d"
+  version "0.1.4"
+  sha256 "de1c708227d6dc9840695112d8b2bc232fd507ee190c6935943d905b59cd0a57"
 
   url "https://github.com/viraatdas/moobot-terminal/releases/download/v#{version}/Moobot.Terminal_#{version}_aarch64.dmg",
       verified: "github.com/viraatdas/moobot-terminal/"
@@ -15,19 +15,9 @@ cask "moobot-terminal" do
 
   app "Moobot Terminal.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Moobot Terminal.app"],
-                   sudo: false
-  end
-
   zap trash: "~/Library/Application Support/MoobotTerminal"
 
   caveats <<~EOS
-    Moobot Terminal is ad-hoc signed and not notarized. The cask removes the
-    quarantine attribute after install. If macOS still blocks the first launch:
-      xattr -dr com.apple.quarantine "/Applications/Moobot Terminal.app"
-
     The research engine requires Node 22+ and Claude Code with the Robinhood
     MCP connected:
       claude mcp add --transport http robinhood-trading https://agent.robinhood.com/mcp/trading
