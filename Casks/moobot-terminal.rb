@@ -2,7 +2,7 @@
 # right-click → Open the first time.
 cask "moobot-terminal" do
   version "0.1.0"
-  sha256 "e405bb0e4270496b8b8983eb381856057883ed1724f97957714807123b3480a5"
+  sha256 "7b4b44d4dcde5a1204bf0f3e1446cbe93a65acbd7e2b5cd48913fbf46fce5f8d"
 
   url "https://github.com/viraatdas/moobot-terminal/releases/download/v#{version}/Moobot.Terminal_#{version}_aarch64.dmg"
   name "Moobot Terminal"
