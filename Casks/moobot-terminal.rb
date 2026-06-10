@@ -1,5 +1,4 @@
 # Moobot Terminal — Mac trading terminal with an AI research desk.
-# Unsigned app (no Developer ID yet): install with --no-quarantine, or
 # right-click → Open the first time.
 cask "moobot-terminal" do
   version "0.1.0"
@@ -21,7 +20,6 @@ cask "moobot-terminal" do
   caveats <<~EOS
     Moobot Terminal is not code-signed. If macOS blocks the first launch:
       xattr -dr com.apple.quarantine "/Applications/Moobot Terminal.app"
-    (or install with: brew install --cask --no-quarantine viraatdas/tap/moobot-terminal)
 
     The research engine requires Node 22+ and Claude Code with the Robinhood
     MCP connected:
