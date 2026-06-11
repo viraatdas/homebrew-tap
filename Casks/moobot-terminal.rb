@@ -1,7 +1,7 @@
 # Moobot Terminal - Mac trading terminal with an AI research desk.
 cask "moobot-terminal" do
-  version "0.1.5"
-  sha256 "a139cf44fedd85a95c6a6088aa9dc0679d78642f0f7e2786fbe6daf4cedcb027"
+  version "0.1.6"
+  sha256 "478de5e1d1adf68f04635f5849f6c595484e6e3b8bd48e90c2ab584956a963c9"
 
   url "https://github.com/viraatdas/moobot-terminal/releases/download/v#{version}/Moobot.Terminal_#{version}_aarch64.dmg",
       verified: "github.com/viraatdas/moobot-terminal/"
