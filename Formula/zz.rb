@@ -14,8 +14,12 @@
 class Zz < Formula
   desc "Very simplistic, non-AI terminal text editor with vim keybindings"
   homepage "https://github.com/viraatdas/zz-editor"
-  version "0.1.0"
   license "MIT"
+
+  head do
+    url "https://github.com/viraatdas/zz-editor.git", branch: "master"
+    depends_on "go" => :build
+  end
 
   on_macos do
     on_arm do
@@ -37,11 +41,6 @@ class Zz < Formula
       url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.0/zz-0.1.0-linux-amd64.tar.gz"
       sha256 "9fe78b40bdbcb7ac92bcd740a2cf20d31447f92bc2ceba365831095b6593ed99"
     end
-  end
-
-  head do
-    url "https://github.com/viraatdas/zz-editor.git", branch: "master"
-    depends_on "go" => :build
   end
 
   def install
