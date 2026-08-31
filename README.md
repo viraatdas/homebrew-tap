@@ -1,8 +1,19 @@
 # homebrew-tap
 
-Homebrew tap for [Stow](https://github.com/viraatdas/stow) — offload unused files on macOS.
+Homebrew tap for my own tools.
+
+## [zz Editor](https://github.com/viraatdas/zz-editor)
+
+A very simplistic, non-AI terminal text editor — micro with vim keybindings.
 
 ```sh
-brew tap viraatdas/tap
-brew install stow
+brew install viraatdas/tap/zz
+```
+
+## [Stow](https://github.com/viraatdas/stow)
+
+Offload unused files on macOS.
+
+```sh
+brew install viraatdas/tap/stow
 ```
