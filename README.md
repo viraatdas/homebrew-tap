@@ -17,3 +17,5 @@ Offload unused files on macOS.
 ```sh
 brew install viraatdas/tap/stow
 ```
+
+Releases are published automatically, and this tap is bumped by CI.
