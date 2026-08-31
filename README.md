@@ -4,7 +4,7 @@ Homebrew tap for my own tools.
 
 ## [zz editor](https://github.com/viraatdas/zz-editor)
 
-A very simplistic, non-AI terminal text editor — micro with vim keybindings.
+A very simplistic, non-AI terminal text editor: micro with vim keybindings.
 
 ```sh
 brew install viraatdas/tap/zz

@@ -1,4 +1,4 @@
-# Homebrew formula for zz Editor — prebuilt binaries.
+# Homebrew formula for zz editor, installing prebuilt binaries.
 #
 # zz has no cgo dependency, so the release archives are static
 # (CGO_ENABLED=0) and cross-compiled for darwin/linux on amd64/arm64. They are
