@@ -2,7 +2,7 @@
 
 Homebrew tap for my own tools.
 
-## [zz Editor](https://github.com/viraatdas/zz-editor)
+## [zz editor](https://github.com/viraatdas/zz-editor)
 
 A very simplistic, non-AI terminal text editor — micro with vim keybindings.
 
