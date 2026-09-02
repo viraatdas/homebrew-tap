@@ -23,23 +23,23 @@ class Zz < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.6/zz-0.1.6-darwin-arm64.tar.gz"
-      sha256 "db6f7a35dd72872802398d8960592126aae320753157114ec27409dc237d1be0"
+      url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.7/zz-0.1.7-darwin-arm64.tar.gz"
+      sha256 "abf702b75086cf6d4fc2d624842a142ddc591c8b54d06b70e0b6cfe1bf5d2518"
     end
     on_intel do
-      url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.6/zz-0.1.6-darwin-amd64.tar.gz"
-      sha256 "97ed29201a8130879d9b1c3225c9749a3daa0b93665244eec70122c7a96ccf44"
+      url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.7/zz-0.1.7-darwin-amd64.tar.gz"
+      sha256 "65f68632d4d2c39293446560b2000ed336f28697ee557504bd84916798639e8c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.6/zz-0.1.6-linux-arm64.tar.gz"
-      sha256 "53eb20dee6f9d1368a43d7f55e8d4a1c659fa2a95369f0cba674e291ee2246b0"
+      url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.7/zz-0.1.7-linux-arm64.tar.gz"
+      sha256 "e9e40c08ca4034c7c48dfb424b1dffe4ba0edc9d7944e482e477a3faf2729330"
     end
     on_intel do
-      url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.6/zz-0.1.6-linux-amd64.tar.gz"
-      sha256 "27f2c47712de35a070bb6e10e00ca362f22afdb0e65f4a0dca5e3d76ae512bef"
+      url "https://github.com/viraatdas/zz-editor/releases/download/v0.1.7/zz-0.1.7-linux-amd64.tar.gz"
+      sha256 "7467525a6f1e6a4f9b47276d9b4ffecd337fb4e250c0c931075f4f3f72cce251"
     end
   end
 
